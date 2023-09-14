@@ -358,6 +358,13 @@ section {
 
 .text-center-justify{
     text-align: justify;
+    min-width: 20vw;
+    border-radius: 20px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -368,7 +375,6 @@ li {
 }
 
 p {
-    
     min-width: 20vw;
     border-radius: 20px;
     min-height: 30px;
