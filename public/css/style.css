@@ -308,6 +308,10 @@ h3 {
         min-width: 80vw;
     }
 
+    .text-center-justify{
+        min-width: 80vw;
+    }
+
     .content {
         min-width: 80vw;
     }
