@@ -48,18 +48,6 @@ h2 {
     margin-top: 20px;
 }
 
-h3 {
-    font-size: 24px; 
-    min-width: 20vw;
-    border-radius: 20px;
-    min-height: 30px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 p{
     margin-top: 0;
     margin-bottom: 8px;
