@@ -254,8 +254,7 @@ p{
     min-width: 20vw;
     border-radius: 20px;
     min-height: 300px;
-    /*background-color: var(--color-primary-ligh);*/
-    background-color: transparent;
+    background-color: var(--color-primary-ligh);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -423,6 +422,18 @@ footer p {
     text-decoration: none;
 }
 
+
 .messageError {
-    color: white;
+    position: relative; /* Menetapkan posisi elemen relatif */
+    color: black; /* Warna teks pesan error */
 }
+
+.messageError::before {
+    content: "!";
+    position: absolute;
+    top: 0;
+    left: -15px; /* Sesuaikan jarak ke kiri sesuai kebutuhan */
+    color: red; /* Warna tanda seru */
+    font-size: 18px; /* Ukuran font tanda seru */
+}
+
