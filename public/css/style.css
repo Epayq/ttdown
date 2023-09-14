@@ -368,10 +368,7 @@ li {
 }
 
 p {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    
     min-width: 20vw;
     border-radius: 20px;
     min-height: 30px;
