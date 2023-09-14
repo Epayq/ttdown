@@ -312,6 +312,10 @@ h3 {
         min-width: 80vw;
     }
 
+    p {
+        min-width: 80vw;  
+    }
+
     .content {
         min-width: 80vw;
     }
